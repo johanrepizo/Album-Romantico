@@ -1,0 +1,40 @@
+ÁLBUM ROMÁNTICO — INSTRUCCIONES
+
+1. Abre la carpeta album_romantico.
+2. Copia tus archivos a las carpetas indicadas abajo.
+3. Abre index.html con Chrome, Edge o Firefox.
+
+TUS FOTOS
+Pon hasta cuatro fotos en media/fotos y usa exactamente estos nombres:
+- foto1.jpg
+- foto2.jpg
+- foto3.jpg
+- foto4.jpg
+
+Si tus fotos son PNG o WEBP, puedes convertirlas a JPG o cambiar la extensión en el nombre del archivo y la ruta correspondiente en index.html. No basta con cambiar el nombre si el formato real es distinto.
+
+TUS VIDEOS
+Pon tus videos MP4 aquí:
+- media/videos/recuerdo1.mp4
+- media/videos/recuerdo2.mp4
+
+Si tienes un solo video, puedes dejar el segundo espacio vacío o borrar el segundo bloque <article class="video-card"> de index.html.
+
+TU MÚSICA
+Pon una canción en formato MP3 en:
+- media/musica/cancion.mp3
+
+IMPORTANTE SOBRE LA MÚSICA
+Los navegadores suelen bloquear la reproducción automática hasta que la persona interactúa con la página. En este proyecto la música intenta empezar cuando se pulsa “Abrir mi regalo”; también hay un botón para activar o pausar la música.
+
+PERSONALIZAR EL TEXTO
+- Edita index.html con Visual Studio Code o el Bloc de notas.
+- Busca “Un pequeño mundo para nosotros”, las leyendas de las fotos y el texto de la carta.
+- Cambia esas frases por las tuyas.
+- Para cambiar colores, abre style.css y modifica las variables dentro de :root.
+
+NOTAS
+- Este proyecto funciona localmente y no necesita instalar dependencias.
+- Para que las fotos, videos y música aparezcan, las rutas y nombres deben coincidir exactamente.
+- Si más adelante quieres compartirlo por internet, tendrás que publicar también los archivos multimedia.
+- Usa música y contenido que tengas permiso de utilizar.

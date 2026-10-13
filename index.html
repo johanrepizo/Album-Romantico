@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#7b263f">
+  <title>Para alguien especial ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="welcome" id="welcome">
+      <div class="welcome-card">
+        <span class="eyebrow">HECHO CON MUCHO AMOR</span>
+        <div class="big-heart" aria-hidden="true">♥</div>
+        <h1>Un pequeño mundo<br>para nosotros</h1>
+        <p>Guardé aquí algunos recuerdos que hacen bonito mi mundo.</p>
+        <button id="openBtn" class="primary-btn">Abrir mi regalo <span>♥</span></button>
+        <p class="tiny-note">Ponte cómodo/a… esto es para ti.</p>
+      </div>
+    </section>
+
+    <section class="album hidden" id="album">
+      <header class="topbar">
+        <a class="brand" href="#inicio">♥ <span>nuestros recuerdos</span></a>
+        <button class="music-btn" id="musicBtn" aria-label="Reproducir o pausar música">♫ <span id="musicLabel">Activar música</span></button>
+      </header>
+
+      <section class="hero" id="inicio">
+        <p class="eyebrow">PARA MI PERSONA FAVORITA</p>
+        <h2>Hay recuerdos que<br><em>se sienten como hogar.</em></h2>
+        <p class="hero-copy">Y estos son algunos de mis favoritos contigo.</p>
+        <div class="scroll-cue">DESLIZA PARA VER NUESTROS RECUERDOS <span>↓</span></div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">PEQUEÑOS INSTANTES, GRANDES SENTIMIENTOS</p>
+          <h2>Nuestro álbum <span>♡</span></h2>
+          <p>Cada foto guarda una historia que me encanta recordar.</p>
+        </div>
+        <div class="photo-grid" id="photoGrid">
+          <figure class="polaroid tilt-left">
+            <img src="img/foto1.jpeg" alt="Nuestro recuerdo número uno" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">♡<small>Foto 1</small></div>
+            <figcaption>Mi mujer hermosa</figcaption>
+          </figure>
+          <figure class="polaroid tilt-right">
+            <img src="img/foto2.jpeg" alt="Nuestro recuerdo número dos" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">✿<small>Foto 2</small></div>
+            <figcaption>Nuestro pequeñito Nube</figcaption>
+          </figure>
+          <figure class="polaroid tilt-left">
+            <img src="img/foto3.jpeg" alt="Nuestro recuerdo número tres" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">☼<small>Foto 3</small></div>
+            <figcaption>Mi foto favorita</figcaption>
+          </figure>
+          <figure class="polaroid tilt-right">
+            <img src="img/foto4.jpeg" alt="Nuestro recuerdo número cuatro" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">♥<small>Foto 4</small></div>
+            <figcaption>La mujer de mi vida</figcaption>
+          </figure>
+          <figure class="polaroid tilt-left">
+            <img src="img/foto5.jpeg" alt="Nuestro recuerdo número cinco" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">☆<small>Foto 5</small></div>
+            <figcaption>Un recuerdo más</figcaption>
+          </figure>
+          <figure class="polaroid tilt-right">
+            <img src="img/foto6.jpeg" alt="Nuestro recuerdo número seis" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">❀<small>Foto 6</small></div>
+            <figcaption>Juntos en el tiempo</figcaption>
+          </figure>
+          <figure class="polaroid tilt-left">
+            <img src="img/foto7.jpeg" alt="Nuestro recuerdo número siete" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">❈<small>Foto 7</small></div>
+            <figcaption>Momentos especiales</figcaption>
+          </figure>
+          <figure class="polaroid tilt-right">
+            <img src="img/foto8.jpeg" alt="Nuestro recuerdo número ocho" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">✤<small>Foto 8</small></div>
+            <figcaption>Contigo siempre sonrío</figcaption>
+          </figure>
+          <figure class="polaroid tilt-left">
+            <img src="img/foto9.jpeg" alt="Nuestro recuerdo número nueve" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">❋<small>Foto 9</small></div>
+            <figcaption>Nuestra diferencia de altura mi amor</figcaption>
+          </figure>
+          <figure class="polaroid tilt-right">
+            <img src="img/foto10.jpeg" alt="Nuestro recuerdo número diez" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">❤<small>Foto 10</small></div>
+            <figcaption>Mi persona favorita</figcaption>
+          </figure>
+          <figure class="polaroid tilt-left">
+            <img src="img/foto11.jpeg" alt="Nuestro recuerdo número once" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">💕<small>Foto 11</small></div>
+            <figcaption>Te amo infinito</figcaption>
+          </figure>
+          <figure class="polaroid tilt-right">
+            <img src="img/foto12.jpeg" alt="Nuestro recuerdo número doce" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">💖<small>Foto 12</small></div>
+            <figcaption>Nuestras historias juntos</figcaption>
+          </figure>
+          <figure class="polaroid tilt-left">
+            <img src="img/foto13.jpeg" alt="Nuestro recuerdo número trece" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder">💗<small>Foto 13</small></div>
+            <figcaption>Para siempre contigo</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="letter-section section">
+        <div class="letter">
+          <div class="letter-icon">✉</div>
+          <p class="eyebrow">UNA CARTA PARA TI</p>
+          <h2>Hay algo que quiero decirte…</h2>
+          <p class="letter-intro">No siempre hacen falta grandes palabras para expresar algo bonito.</p>
+          <button class="secondary-btn" id="letterBtn">Leer mi carta ♥</button>
+          <div class="letter-content hidden" id="letterContent">
+            <p>Quiero que sepas que me encanta tenerte en mi vida. Gracias por los momentos, las sonrisas y por cada recuerdo que poco a poco se vuelve especial.</p>
+            <p>Si pudiera guardar cada instante bonito en un lugar, elegiría este pequeño álbum para recordarte cuánto significas para mí.</p>
+            <p class="signature">Con mucho cariño tu noviecito, <span>Felices dos mesesitos juntos mi amooor ♡</span></p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-heart">♥</div>
+        <p>Hecho con cariño, recuerdo por recuerdo.</p>
+        <small>Una página sencilla para alguien especial.</small>
+      </footer>
+    </section>
+  </main>
+
+  <audio id="backgroundMusic" loop>
+    <source src="music/My_Girl.mp4" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
